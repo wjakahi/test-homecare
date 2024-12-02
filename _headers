@@ -1,0 +1,10 @@
+/*
+  Content-Security-Policy: 
+    default-src 'self';
+    script-src 'self';
+    style-src 'self' https://fonts.googleapis.com/;
+    img-src 'self' data:;
+    connect-src 'self';
+    frame-ancestors 'none';
+    form-action 'self';
+    base-uri 'self'
